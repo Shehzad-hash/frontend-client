@@ -12,7 +12,7 @@ import "../../style/plugins/slick-theme.css";
 import "../../style/plugins/slick.css";
 import "../../style/plugins/swiper.min.css";
 import "../../style/plugins/YouTubePopUp.css";
-import "./landing.css";
+import "../../style/plugins/landing.css";
 
 const Landing = () => {
   return (
@@ -64,55 +64,6 @@ const Landing = () => {
       {/* <!-- ==================== End cursor ==================== --> */}
 
       {/* <!-- ==================== Start Navbar ==================== --> */}
-
-      <nav class="navbar navbar-expand-lg light">
-        <div class="container">
-          {/* <!-- Logo --> */}
-          <a class="logo" href="#">
-            <img src="/img/Logowhite.png" alt="logo" />
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="icon-bar">
-              <i class="fas fa-bars"></i>
-            </span>
-          </button>
-
-          {/* <!-- navbar links --> */}
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index3.html">
-                  Home
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="showcase3.html">
-                  Top Firms
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog-grid.html">
-                  News
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
 
       {/* <!-- ==================== End Navbar ==================== --> */}
 
@@ -418,10 +369,10 @@ const Landing = () => {
 
                 {/* <!-- slider setting --> */}
                 <div class="swiper-button-next swiper-nav-ctrl next-ctrl cursor-pointer">
-                  <i class="ion-ios-arrow-right"></i>
+                  <i class="fa-solid fa-chevron-right"></i>
                 </div>
                 <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl cursor-pointer">
-                  <i class="ion-ios-arrow-left"></i>
+                  <i class="fa-solid fa-chevron-left"></i>
                 </div>
               </div>
             </div>
@@ -618,7 +569,7 @@ const Landing = () => {
                   <div class="skill-item">
                     <h6 class="custom-font">Trustpilot 5-Stars</h6>
                     <div class="skill-progress">
-                      <div class="progres" data-value="85%"></div>
+                      <div class="progres" data-value="92%"></div>
                     </div>
                   </div>
                 </div>
