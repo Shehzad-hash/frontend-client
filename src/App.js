@@ -30,8 +30,8 @@ function App() {
           <Route element={<Contact />} path="/contact" />
           <Route element={<News />} path="/News" />
           <Route element={<Blogs />} path="/Blogs" />
-          {/* <Route element={<Home />} path="/home" />
-          <Route element={<Compare />} path="/compare" /> */}
+          <Route element={<Home />} path="/home" />
+          <Route element={<Compare />} path="/compare" />
         </Routes>
       </BrowserRouter>
     </>

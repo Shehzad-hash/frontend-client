@@ -180,7 +180,7 @@ export default function () {
   // console.log("company", company);
   return (
     <div>
-      <div className="bodyWrapper">
+      <div className="bodyWrapper resetPage">
         {/* sideBar */}
         <SideBar />
         {/* main body */}
@@ -989,9 +989,9 @@ export default function () {
                       <h6 className="subTitle">Own App ?</h6>
 
                       {company?.companyOwnMobileApp == true ? (
-                        <img src={CheckImage} alt="" />
+                        <img src={CheckImage} alt="" className="bigImg"/>
                       ) : (
-                        <img src={BigX} alt="" />
+                        <img src={BigX} alt="" className="bigImg"/>
                       )}
                     </div>
                     <div className="col">
@@ -1004,9 +1004,9 @@ export default function () {
                     <div className="col">
                       <h6 className="subTitle">Website in other lenguages?</h6>
                       {company?.companyWebsiteinOtherlanguages === true ? (
-                        <img src={CheckImage} alt="" />
+                        <img src={CheckImage} alt="" className="bigImg"/>
                       ) : (
-                        <img src={BigX} alt="" />
+                        <img src={BigX} alt="" className="bigImg"/>
                       )}
                     </div>
                   </div>

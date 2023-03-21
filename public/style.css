@@ -683,6 +683,8 @@ padding: 0.5em 0;
 .mainBodyContent.dark {
   background: #1c1c1c;
 }
+
+
 .sideBar.dark .sideHeader,
 .updateBody.dark .mainText,
 .updateBody.dark .updateTitle,
@@ -692,6 +694,25 @@ padding: 0.5em 0;
 .mainBodyContent.dark .mainTitle {
   color: white;
 }
+/* changes by irfan */
+.resetPage{
+  margin-top: 5em;
+}
+.resetPage img{
+  width: unset;
+}
+.resetPage .navbar.dark{
+position: relative;
+z-index: 0;
+/* margin-top: 5em; */
+}
+.resetPage .col-lg-10,.resetPage .col-lg-2{
+  padding: 0;
+}
+.sideBarLogo h1{
+  font-size: 1em;
+}
+/* /=========================================/ */
 .sideBar.dark .silentText,
 .mainBody .navbar.dark a,
 .mainBody .navbar.dark .searchArea input::placeholder,
@@ -817,6 +838,9 @@ padding: 0.5em 0;
   margin-left: -0.5em;
 }
 @media (max-width: 992px) {
+  .resetPage{
+    margin-top: 4em;
+  }
   .mainBodyContent.dark .bodyHeader .col-6 .dropdown.company {
     margin-left: 0;
   }

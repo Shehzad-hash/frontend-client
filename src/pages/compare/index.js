@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import SearchImage from "./../../img/Search.svg";
 import fSwordImage from "./../../img/fSword.png";
 import "./style.css";
 import {
@@ -270,7 +271,7 @@ export default function Compare() {
     }
   };
   return (
-    <div className="bodyWrapper compareBody">
+    <div className="bodyWrapper compareBody resetPage">
       {/* sideBar */}
       <div className="sideBar dark">
         <i className="fa-solid fa-chevron-left" onclick="sideMenuToggle()" />
@@ -351,7 +352,7 @@ export default function Compare() {
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                       <div className="searchArea nav-link">
-                        <img src="./img/Search.svg" alt="" />
+                        <img src={SearchImage} alt="" />
                         <input type="search" placeholder="Search" />
                       </div>
                     </li>
